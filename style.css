@@ -1,0 +1,48 @@
+body{
+
+ background-color: aliceblue;
+
+}
+
+::selection {
+    color: rebeccapurple;
+    background: yellow;
+}
+
+::marker {
+color:crimson
+}
+
+p::first-letter {
+    color: purple;
+    font-size: xx-large;
+  }
+  
+  p::first-line {
+    color: brown;
+    font-variant: small-caps;
+  }
+  a:active{
+background-color: blueviolet;
+  }
+
+  input:active{
+    height: 75px;
+    width: 75px;
+  }
+  
+  input[type=text]:enabled {
+    background: #999ab6;
+  }
+  
+  input[type=text]:disabled {
+    background: #72bd82;
+  }
+  p:empty {
+    width: 100px;
+    height: 20px;
+    background: #ff5eb6;
+  }
+  input:focus {
+    background-color: turquoise;
+  }
